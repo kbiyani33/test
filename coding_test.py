@@ -58,7 +58,7 @@ length=len(ll)
 if(length%2==0):
     median=(ll[length//2]+ll[(length//2)-1])/2
 else:
-    median=ll[(length+1)//2]
+    median=ll[(length-1)//2]
 mean=round(mean,2)
 median=round(median,2)
 r=round(r,2)
