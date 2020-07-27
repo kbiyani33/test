@@ -48,7 +48,7 @@ for i in l2:
     if isprime(i) and (i not in l):
         ll.append(i)
 ll=sorted(ll)
-print(ll)
+#print(ll)
 r=ll[-1]-ll[0]
 mean=0
 for i in ll:
